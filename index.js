@@ -9,7 +9,7 @@ function handleClick(e) {
 
 function greet(input) {
   let wordArray = input.split(':');
-  let num = parseInt(wordArray, 10);
+  let num = parseInt(wordArray[0]);
   let greeting = null;
   if (num[0] < 12) {
     greeting = 'Good Morning';
