@@ -11,16 +11,16 @@ function greet(input) {
   let wordArray = input.split(':');
   let num = parseInt(wordArray[0]);
   let greeting = null;
-  if (num[0] < 12) {
+  if (num < 12) {
     greeting = 'Good Morning';
   }
-  else if (num[0] >= 12 && num[0] <= 17) {
+  else if (num >= 12 && num <= 17) {
     greeting = 'Good Afternoon';
   }
   else {
     greeting = 'Good Evening';
   }
-  return num[0];
+  return greeting;
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
