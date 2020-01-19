@@ -20,7 +20,7 @@ function greet(input) {
   else {
     greeting = 'Good Evening';
   }
-  return greeting;
+  return num[0];
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
