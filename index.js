@@ -10,14 +10,15 @@ function handleClick(e) {
 function greet(input) {
   let wordArray = input.split(':');
   let num = parseInt(wordArray, 10);
+  let greeting = null;
   if (num[0] < 12) {
-    let greeting = 'Good Morning';
+    greeting = 'Good Morning';
   }
   else if (num[0] >= 12 && num[0] <= 17) {
-    let greeting = 'Good Afternoon';
+    greeting = 'Good Afternoon';
   }
   else {
-    let greeting = 'Good Evening';
+    greeting = 'Good Evening';
   }
   return greeting;
 }
