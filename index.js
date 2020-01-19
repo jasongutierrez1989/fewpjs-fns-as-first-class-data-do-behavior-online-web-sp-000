@@ -19,7 +19,7 @@ function greet(input) {
   else {
     let greeting = 'Good Evening';
   }
-  return greeting;
+  return wordArray;
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
