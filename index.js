@@ -22,5 +22,8 @@ function greet(input) {
   }
   return greeting;
 }
-/* Write your implementation of greet() */
-/* Write your implementation of displayMessage() */
+
+function displayMessage(input) {
+  var x = document.getElementById(#greeting);
+  x.innerText = 'Hi';
+}
