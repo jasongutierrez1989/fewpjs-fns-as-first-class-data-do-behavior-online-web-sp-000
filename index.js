@@ -13,13 +13,13 @@ function greet(input) {
   if (num[0] < 12) {
     let greeting = 'Good Morning';
   }
-  else if (num[0] >= 12 && num[0] <= 5) {
+  else if (num[0] >= 12 && num[0] <= 17) {
     let greeting = 'Good Afternoon';
   }
   else {
     let greeting = 'Good Evening';
   }
-  return wordArray;
+  return greeting;
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
