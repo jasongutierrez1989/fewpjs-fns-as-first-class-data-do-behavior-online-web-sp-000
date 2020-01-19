@@ -8,13 +8,13 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(input) {
-  wordArray = input.split(':');
-  input = parseInt(wordArray, 10);
+  let wordArray = input.split(':');
+  num = parseInt(wordArray, 10);
    let greeting = null;
-  if (wordArray[0] < 12) {
+  if (num[0] < 12) {
     greeting = 'Good Morning';
   }
-  else if (wordArray[0] >= 12 && wordArray[0] <= 5) {
+  else if (num[0] >= 12 && num[0] <= 5) {
     greeting = 'Good Afternoon'
   }
   else {
